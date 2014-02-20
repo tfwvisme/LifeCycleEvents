@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LifeCycleEvents</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset1">Reset</string>
+    <string name="reset2">Resetting</string>
+    <string name="exit1">Exit</string>
+    <string name="exit2">Exiting</string>
+    <string name="header1">Method</string>
+    <string name="header2">Times Called</string>
+    <string-array name="events_array">
+        <item >onCreate</item>
+        <item >onRestart</item>
+        <item >onStart</item>
+        <item >onResume</item>
+        <item >onPause</item>
+        <item >onRotations</item>
+    </string-array>
+    <string name="onCreate">onCreate</string>
+    <string name="onRestart">onRestart</string>
+    <string name="onStart">onStart</string>
+    <string name="onResume">onResume</string>
+    <string name="onPause">onPause</string>
+    <string name="onRotate">onRotate</string>
+    <string name="onDestroy">onDestroy</string>  
+    <string name="tc_onCreate">42</string>
+    <string name="tc_onRestart">42</string>
+    <string name="tc_onStart">42</string>
+    <string name="tc_onResume">42</string>
+    <string name="tc_onPause">42</string>
+    <string name="tc_onRotate">42</string>
+    <string name="tc_onDestroy">42</string>
+
+</resources>

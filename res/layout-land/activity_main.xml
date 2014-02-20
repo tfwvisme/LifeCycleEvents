@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/header1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/header2" />
+        </TableRow>
+    <!-- methods -->
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onCreate" />
+
+        <TextView
+			android:id="@+id/tc_onCreate"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>    
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onRestart" />
+
+        <TextView
+			android:id="@+id/tc_onRestart"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+        
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onStart" />
+
+        <TextView
+			android:id="@+id/tc_onStart"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+ 
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onPause" />
+
+        <TextView
+			android:id="@+id/tc_onPause"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+         
+        </TextView>
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onResume" />
+
+        <TextView
+			android:id="@+id/tc_onResume"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onDestroy" />
+
+        <TextView
+			android:id="@+id/tc_onDestroy"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+        
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView       
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onRotate" />
+
+        <TextView
+			android:id="@+id/tc_onRotate"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+<!-- end methods -->
+   
+        
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/reset_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset1"
+            android:onClick="onReset" />
+
+        <Button
+            android:id="@+id/exit_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit1"
+            android:onClick="onExit" />
+    </LinearLayout>
+
+</LinearLayout>
